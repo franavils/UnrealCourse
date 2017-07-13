@@ -11,17 +11,112 @@
 PRAGMA_DISABLE_OPTIMIZATION
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCode1Section_03() {}
+	void UOpenDoor::StaticRegisterNativesUOpenDoor()
+	{
+	}
+	IMPLEMENT_CLASS(UOpenDoor, 1234345546);
+	void UPositionReporter::StaticRegisterNativesUPositionReporter()
+	{
+	}
+	IMPLEMENT_CLASS(UPositionReporter, 3265943765);
 	void ASection_03GameModeBase::StaticRegisterNativesASection_03GameModeBase()
 	{
 	}
 	IMPLEMENT_CLASS(ASection_03GameModeBase, 2714809091);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
+	ENGINE_API class UClass* Z_Construct_UClass_UActorComponent();
+	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_ATriggerVolume_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
 
+	SECTION_03_API class UClass* Z_Construct_UClass_UOpenDoor_NoRegister();
+	SECTION_03_API class UClass* Z_Construct_UClass_UOpenDoor();
+	SECTION_03_API class UClass* Z_Construct_UClass_UPositionReporter_NoRegister();
+	SECTION_03_API class UClass* Z_Construct_UClass_UPositionReporter();
 	SECTION_03_API class UClass* Z_Construct_UClass_ASection_03GameModeBase_NoRegister();
 	SECTION_03_API class UClass* Z_Construct_UClass_ASection_03GameModeBase();
 	SECTION_03_API class UPackage* Z_Construct_UPackage__Script_Section_03();
+	UClass* Z_Construct_UClass_UOpenDoor_NoRegister()
+	{
+		return UOpenDoor::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UOpenDoor()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UActorComponent();
+			Z_Construct_UPackage__Script_Section_03();
+			OuterClass = UOpenDoor::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20B00080;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_ActorThatOpens = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ActorThatOpens"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(ActorThatOpens, UOpenDoor), 0x0040000000020001, Z_Construct_UClass_AActor_NoRegister());
+				UProperty* NewProp_DoorCloseDelay = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("DoorCloseDelay"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(DoorCloseDelay, UOpenDoor), 0x0040000000000001);
+				UProperty* NewProp_PressurePlate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("PressurePlate"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(PressurePlate, UOpenDoor), 0x0040000000000001, Z_Construct_UClass_ATriggerVolume_NoRegister());
+				UProperty* NewProp_OpenAngle = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("OpenAngle"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(OpenAngle, UOpenDoor), 0x0040000000000001);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("BlueprintSpawnableComponent"), TEXT(""));
+				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("OpenDoor.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
+				MetaData->SetValue(NewProp_ActorThatOpens, TEXT("Category"), TEXT("OpenDoor"));
+				MetaData->SetValue(NewProp_ActorThatOpens, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
+				MetaData->SetValue(NewProp_DoorCloseDelay, TEXT("Category"), TEXT("OpenDoor"));
+				MetaData->SetValue(NewProp_DoorCloseDelay, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
+				MetaData->SetValue(NewProp_PressurePlate, TEXT("Category"), TEXT("OpenDoor"));
+				MetaData->SetValue(NewProp_PressurePlate, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
+				MetaData->SetValue(NewProp_OpenAngle, TEXT("Category"), TEXT("OpenDoor"));
+				MetaData->SetValue(NewProp_OpenAngle, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UOpenDoor(Z_Construct_UClass_UOpenDoor, &UOpenDoor::StaticClass, TEXT("UOpenDoor"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UOpenDoor);
+	UClass* Z_Construct_UClass_UPositionReporter_NoRegister()
+	{
+		return UPositionReporter::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UPositionReporter()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UActorComponent();
+			Z_Construct_UPackage__Script_Section_03();
+			OuterClass = UPositionReporter::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20B00080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("BlueprintSpawnableComponent"), TEXT(""));
+				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("PositionReporter.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("PositionReporter.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UPositionReporter(Z_Construct_UClass_UPositionReporter, &UPositionReporter::StaticClass, TEXT("UPositionReporter"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UPositionReporter);
 	UClass* Z_Construct_UClass_ASection_03GameModeBase_NoRegister()
 	{
 		return ASection_03GameModeBase::StaticClass();
@@ -63,8 +158,8 @@ void EmptyLinkFunctionForGeneratedCode1Section_03() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Section_03")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xBA3B7772;
-			Guid.B = 0xEAE8CFBA;
+			Guid.A = 0xDD1B9BCE;
+			Guid.B = 0x8BC7454C;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

@@ -1,46 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\Section_03.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{9EA1CD2E-2793-490D-84E3-CFEE7139234A}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Section_03.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\Section_03Editor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{16B70142-696F-429B-9E5C-9C8171EBB8E6}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\Section_03">
-			<UniqueIdentifier>{D6D68374-F277-4838-83B2-33030321EB1F}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Section_03\Section_03.Build.cs">
-			<Filter>Source\Section_03</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\Section_03\Section_03.cpp">
-			<Filter>Source\Section_03</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Section_03\Section_03.h">
-			<Filter>Source\Section_03</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Section_03\Section_03GameModeBase.cpp">
-			<Filter>Source\Section_03</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Section_03\Section_03GameModeBase.h">
-			<Filter>Source\Section_03</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Section_03.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B6618201-96E2-4362-95CC-F7567F6A0DD0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Section_03.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Section_03Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{69EA295D-0D0E-4F91-91C9-8654E53046B3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Section_03">
+      <UniqueIdentifier>{BB40BC30-8C76-4240-A84C-67E0A275414D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Section_03\PositionReporter.cpp">
+      <Filter>Source\Section_03</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Section_03\PositionReporter.h">
+      <Filter>Source\Section_03</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Section_03\Section_03.Build.cs">
+      <Filter>Source\Section_03</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Section_03\Section_03.cpp">
+      <Filter>Source\Section_03</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Section_03\Section_03.h">
+      <Filter>Source\Section_03</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Section_03\Section_03GameModeBase.cpp">
+      <Filter>Source\Section_03</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Section_03\Section_03GameModeBase.h">
+      <Filter>Source\Section_03</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Section_03\OpenDoor.h">
+      <Filter>Source\Section_03</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Section_03\OpenDoor.cpp">
+      <Filter>Source\Section_03</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
