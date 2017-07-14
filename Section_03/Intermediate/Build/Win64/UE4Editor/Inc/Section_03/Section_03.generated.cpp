@@ -11,6 +11,10 @@
 PRAGMA_DISABLE_OPTIMIZATION
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCode1Section_03() {}
+	void UGrabber::StaticRegisterNativesUGrabber()
+	{
+	}
+	IMPLEMENT_CLASS(UGrabber, 1625677624);
 	void UOpenDoor::StaticRegisterNativesUOpenDoor()
 	{
 	}
@@ -30,6 +34,8 @@ void EmptyLinkFunctionForGeneratedCode1Section_03() {}
 	ENGINE_API class UClass* Z_Construct_UClass_ATriggerVolume_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
 
+	SECTION_03_API class UClass* Z_Construct_UClass_UGrabber_NoRegister();
+	SECTION_03_API class UClass* Z_Construct_UClass_UGrabber();
 	SECTION_03_API class UClass* Z_Construct_UClass_UOpenDoor_NoRegister();
 	SECTION_03_API class UClass* Z_Construct_UClass_UOpenDoor();
 	SECTION_03_API class UClass* Z_Construct_UClass_UPositionReporter_NoRegister();
@@ -37,6 +43,39 @@ void EmptyLinkFunctionForGeneratedCode1Section_03() {}
 	SECTION_03_API class UClass* Z_Construct_UClass_ASection_03GameModeBase_NoRegister();
 	SECTION_03_API class UClass* Z_Construct_UClass_ASection_03GameModeBase();
 	SECTION_03_API class UPackage* Z_Construct_UPackage__Script_Section_03();
+	UClass* Z_Construct_UClass_UGrabber_NoRegister()
+	{
+		return UGrabber::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UGrabber()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UActorComponent();
+			Z_Construct_UPackage__Script_Section_03();
+			OuterClass = UGrabber::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20B00080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("BlueprintSpawnableComponent"), TEXT(""));
+				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Grabber.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Grabber.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UGrabber(Z_Construct_UClass_UGrabber, &UGrabber::StaticClass, TEXT("UGrabber"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UGrabber);
 	UClass* Z_Construct_UClass_UOpenDoor_NoRegister()
 	{
 		return UOpenDoor::StaticClass();
@@ -158,8 +197,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Section_03")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xDD1B9BCE;
-			Guid.B = 0x8BC7454C;
+			Guid.A = 0x8A5AE97C;
+			Guid.B = 0xB2B56F70;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

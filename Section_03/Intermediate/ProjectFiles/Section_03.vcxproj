@@ -412,8 +412,10 @@
     <None Include="..\..\Config\DefaultEditor.ini" />
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
+    <ClCompile Include="..\..\Source\Section_03\Grabber.cpp" />
     <ClCompile Include="..\..\Source\Section_03\OpenDoor.cpp" />
     <ClCompile Include="..\..\Source\Section_03\PositionReporter.cpp" />
+    <ClInclude Include="..\..\Source\Section_03\Grabber.h" />
     <ClInclude Include="..\..\Source\Section_03\OpenDoor.h" />
     <ClInclude Include="..\..\Source\Section_03\PositionReporter.h" />
     <None Include="..\..\Source\Section_03\Section_03.Build.cs" />

@@ -6,6 +6,9 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
+#ifndef SECTION_03_Grabber_generated_h
+	#include "Grabber.h"
+#endif
 #ifndef SECTION_03_OpenDoor_generated_h
 	#include "OpenDoor.h"
 #endif
