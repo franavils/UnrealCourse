@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Section_03-7882.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\Section_03\PCH.Section_03.h.obj"
+"D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\Section_03\Grabber.cpp.obj"
+"D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\Section_03\OpenDoor.cpp.obj"
+"D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\Section_03\PositionReporter.cpp.obj"
+"D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\Section_03\Section_03.cpp.obj"
+"D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\Section_03\Section_03GameModeBase.cpp.obj"
+"D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\Section_03\Section_03.generated.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Section_03\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-7882.lib"
