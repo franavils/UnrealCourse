@@ -1,0 +1,1159 @@
+﻿Log file open, 07/17/17 10:45:43
+LogInit:Display: Running engine for game: Section_03
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1394165969) SRandInit(-1394165969).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081072
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.17-08.45.44:088][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.17-08.45.44:088][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.17-08.45.44:119][  0]LogInit: Computer: DESKTOP-I2A0TGF
+[2017.07.17-08.45.44:119][  0]LogInit: User: Fran
+[2017.07.17-08.45.44:119][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.17-08.45.44:119][  0]LogInit: High frequency timer resolution =3.421880 MHz
+[2017.07.17-08.45.44:119][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.07.17-08.45.44:119][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.17-08.45.44:120][  0]LogMemory: Process Physical Memory: 273.27 MB used, 273.27 MB peak
+[2017.07.17-08.45.44:120][  0]LogMemory: Process Virtual Memory: 266.61 MB used, 266.61 MB peak
+[2017.07.17-08.45.44:120][  0]LogMemory: Physical Memory: 9379.47 MB used,  23312.66 MB free, 32692.13 MB total
+[2017.07.17-08.45.44:120][  0]LogMemory: Virtual Memory: 643.55 MB used,  23312.66 MB free, 134217728.00 MB total
+[2017.07.17-08.45.44:231][  0]LogInit: Using OS detected language (en-US).
+[2017.07.17-08.45.44:231][  0]LogInit: Using OS detected locale (da-DK).
+[2017.07.17-08.45.44:233][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.17-08.45.44:233][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en-US' will be used for the locale.
+[2017.07.17-08.45.44:930][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.17-08.45.45:375][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.07.17-08.45.45:375][  0]LogD3D11RHI:       8119/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.17-08.45.45:376][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.17-08.45.45:376][  0]LogD3D11RHI:       0/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.17-08.45.45:376][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.17-08.45.45:380][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.17-08.45.45:380][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.17-08.45.45:380][  0]LogWindows: EnumDisplayDevices:
+[2017.07.17-08.45.45:380][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.07.17-08.45.45:380][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.07.17-08.45.45:381][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.17-08.45.45:381][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.17-08.45.45:381][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.17-08.45.45:381][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.07.17-08.45.45:381][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.07.17-08.45.45:381][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.07.17-08.45.45:381][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.17-08.45.45:808][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.17-08.45.45:842][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.17-08.45.45:928][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Git/UnrealCourse/Section_03/Intermediate/Shaders/WorkingDirectory/1592/).
+[2017.07.17-08.45.45:929][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Fran/AppData/Local/Temp/UnrealShaderWorkingDir/FE2DE7E84D2E5D05E1557A91FBC56750/'.
+[2017.07.17-08.45.45:929][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.17-08.45.46:722][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.17-08.45.46:759][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.17-08.45.46:797][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.17-08.45.46:836][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.17-08.45.46:874][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.17-08.45.46:912][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.17-08.45.46:950][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.17-08.45.46:988][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.17-08.45.47:022][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.17-08.45.47:058][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.17-08.45.47:095][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.17-08.45.47:132][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.17-08.45.47:169][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.17-08.45.47:207][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.17-08.45.47:244][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.17-08.45.47:318][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.17-08.45.47:318][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.17-08.45.47:348][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.17-08.45.47:424][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.17-08.45.47:446][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.17-08.45.47:483][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.17-08.45.47:520][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.17-08.45.47:557][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.17-08.45.47:595][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.17-08.45.47:595][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.17-08.45.47:969][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.17-08.45.48:040][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/Fran/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.17-08.45.48:040][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Fran/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.17-08.45.48:040][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Git/UnrealCourse/Section_03/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.17-08.45.48:040][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.17-08.45.48:040][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Git/UnrealCourse/Section_03/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.17-08.45.48:040][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.17-08.45.48:052][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.17-08.45.48:064][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Fran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.17-08.45.48:071][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.17-08.45.48:072][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.17-08.45.48:072][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.17-08.45.48:072][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.17-08.45.48:304][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.17-08.45.48:353][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.17-08.45.48:473][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.17-08.45.48:507][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.17-08.45.48:544][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.17-08.45.48:544][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.17-08.45.48:544][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.17-08.45.48:936][  0]LogNetVersion: Section_03 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 294135209)
+[2017.07.17-08.45.48:988][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.07.17-08.45.49:026][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.021057 seconds
+[2017.07.17-08.45.49:030][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.17-08.45.49:030][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.17-08.45.49:030][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.17-08.45.49:080][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.17-08.45.50:848][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.17-08.45.50:881][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.17-08.45.51:381][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.17-08.45.51:690][  0]SourceControl: Info Source control is disabled
+[2017.07.17-08.45.51:716][  0]SourceControl: Info Source control is disabled
+[2017.07.17-08.45.51:753][  0]SourceControl: Info Source control is disabled
+[2017.07.17-08.45.51:788][  0]SourceControl: Info Source control is disabled
+[2017.07.17-08.45.52:291][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.17-08.45.52:747][  0]LogEngine: Initializing Engine...
+[2017.07.17-08.45.52:747][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.17-08.45.52:895][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.17-08.45.52:895][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.17-08.45.52:994][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.17-08.45.53:005][  0]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1 V2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.17-08.45.53:018][  0]LogInit: FAudioDevice initialized.
+[2017.07.17-08.45.53:052][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/Fran/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.17-08.45.53:060][  0]LogInit: Texture streaming: Enabled
+[2017.07.17-08.45.53:136][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.17-08.45.53:318][  0]LogInit: Transaction tracking system initialized
+[2017.07.17-08.45.53:577][  0]BlueprintLog: New page: Editor Load
+[2017.07.17-08.45.54:354][  0]LocalizationService: Info Localization service is disabled
+[2017.07.17-08.45.54:895][  0]LogConsoleResponse:Display: 
+[2017.07.17-08.45.55:002][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.17-08.45.55:002][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.17-08.45.55:215][  0]LogFileCache: Scanning file cache for directory 'D:/Git/UnrealCourse/Section_03/Content/' took 0.01s
+[2017.07.17-08.45.55:828][  0]SourceControl: Info Source control is disabled
+[2017.07.17-08.45.55:828][  0]Cmd: MAP LOAD FILE="D:/Git/UnrealCourse/Section_03/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.17-08.45.55:828][  0]LightingResults: New page: Lighting Build
+[2017.07.17-08.45.55:861][  0]MapCheck: New page: Map Check
+[2017.07.17-08.45.55:861][  0]LightingResults: New page: Lighting Build
+[2017.07.17-08.45.56:148][  0]LogAIModule: Creating AISystem for world NewMap
+[2017.07.17-08.45.56:152][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.17-08.45.56:163][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.17-08.45.56:198][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.241ms to complete.
+[2017.07.17-08.45.56:198][  0]LogFileHelpers: Loading map 'NewMap' took 0.370
+[2017.07.17-08.45.56:262][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.17-08.45.56:330][  0]LogCollectionManager: Loaded 0 collections in 0.001085 seconds
+[2017.07.17-08.45.56:402][  0]LogFileCache: Scanning file cache for directory 'D:/Git/UnrealCourse/Section_03/Saved/Collections/' took 0.01s
+[2017.07.17-08.45.56:402][  0]LogFileCache: Scanning file cache for directory 'D:/Git/UnrealCourse/Section_03/Content/Developers/Fran/Collections/' took 0.01s
+[2017.07.17-08.45.56:402][  0]LogFileCache: Scanning file cache for directory 'D:/Git/UnrealCourse/Section_03/Content/Collections/' took 0.01s
+[2017.07.17-08.45.56:402][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.07.17-08.45.56:410][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2333 classes and 493 folders.
+[2017.07.17-08.45.56:463][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.07.17-08.45.56:486][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.07.17-08.45.56:520][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.07.17-08.45.56:555][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.17-08.45.56:560][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.17-08.45.56:562][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.17-08.45.56:566][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.17-08.45.56:638][  0]LogRenderer: Reallocating scene render targets to support 1288x624 NumSamples 1 (Frame:1).
+[2017.07.17-08.45.56:684][  0]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.17-08.45.56:726][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.17-08.45.56:782][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.07.17-08.45.56:782][  0]LogLoad: (Engine Initialization) Total time: 13.98 seconds
+[2017.07.17-08.45.56:782][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.07.17-08.45.56:782][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.17-08.45.56:782][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.17-08.45.56:792][  0]LogOcInput: OculusInput pre-init called
+[2017.07.17-08.45.56:792][  0]LogHMD: Starting GearVRController plugin
+[2017.07.17-08.45.56:804][  0]LogAssetRegistry: Asset discovery search completed in 7.8386 seconds
+[2017.07.17-08.45.56:805][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.17-08.45.56:805][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2017.07.17-08.45.56:808][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.17-08.46.43:573][413]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.17-08.46.43:846][413]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2017.07.17-08.46.44:269][413]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.17-08.46.44:311][413]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.17-08.46.53:560][410]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.17-08.47.16:713][169]BlueprintLog: New page: Compile DefaultPawn_BP
+[2017.07.17-08.47.19:313][459]BlueprintLog: New page: Compile DefaultPawn_BP
+[2017.07.17-08.47.20:001][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_BP" FILE="D:/Git/UnrealCourse/Section_03/Content/DefaultPawn_BP.uasset" SILENT=true
+[2017.07.17-08.47.20:031][530]LogSavePackage: Save=17.39ms
+[2017.07.17-08.47.20:031][530]LogSavePackage: Moving 'D:/Git/UnrealCourse/Section_03/Saved/DefaultPawn_BPC2576AE74AF8486C31F5E9A6F33B40FC.tmp' to 'D:/Git/UnrealCourse/Section_03/Content/DefaultPawn_BP.uasset'
+[2017.07.17-08.47.20:034][530]LogSavePackage:Display: Finished SavePackage D:/Git/UnrealCourse/Section_03/Content/DefaultPawn_BP.uasset
+[2017.07.17-08.47.43:309][778]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.07.17-09.03.39:539][697]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.07.17-09.03.41:696][955]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.17-09.03.41:751][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.17-09.03.41:752][955]PIE: New page: PIE session: NewMap (Jul 17, 2017, 1:03:41 PM)
+[2017.07.17-09.03.41:752][955]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.07.17-09.03.41:755][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002948s)
+[2017.07.17-09.03.41:755][955]LogAIModule: Creating AISystem for world NewMap
+[2017.07.17-09.03.41:756][955]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2017.07.17-09.03.41:756][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004152s)
+[2017.07.17-09.03.41:774][955]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1 V2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.17-09.03.41:780][955]LogInit: FAudioDevice initialized.
+[2017.07.17-09.03.41:828][955]LogLoad: Game class is 'GameMode_BP_C'
+[2017.07.17-09.03.41:830][955]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.07.17-11.03.41
+[2017.07.17-09.03.41:831][955]LogWorld: Bringing up level for play took: 0.001343
+[2017.07.17-09.03.41:866][955]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.07.17-09.03.41:867][955]LogTemp:Warning: Grabber is here!
+[2017.07.17-09.03.41:868][955]LogTemp:Warning: SM_Chair_2 is at X=374.000 Y=73.000 Z=20.000 
+[2017.07.17-09.03.41:868][955]LogTemp:Warning: SM_Rock_5 is at X=270.000 Y=350.000 Z=20.000 
+[2017.07.17-09.03.41:868][955]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.841
+[2017.07.17-09.03.53:565][345]BlueprintLog: New page: Compile DefaultPawn_BP
+[2017.07.17-09.03.54:208][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_BP" FILE="D:/Git/UnrealCourse/Section_03/Content/DefaultPawn_BP.uasset" SILENT=true
+[2017.07.17-09.03.54:230][399]LogSavePackage: Save=17.34ms
+[2017.07.17-09.03.54:230][399]LogSavePackage: Moving 'D:/Git/UnrealCourse/Section_03/Saved/DefaultPawn_BP3DF7C1FE448012C7CAF9B19A02A32EB2.tmp' to 'D:/Git/UnrealCourse/Section_03/Content/DefaultPawn_BP.uasset'
+[2017.07.17-09.03.54:231][399]LogSavePackage:Display: Finished SavePackage D:/Git/UnrealCourse/Section_03/Content/DefaultPawn_BP.uasset
+[2017.07.17-09.03.56:467][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/Git/UnrealCourse/Section_03/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.17-09.03.56:521][665]LogSavePackage: Save=37.04ms
+[2017.07.17-09.03.56:521][665]LogSavePackage: Moving 'D:/Git/UnrealCourse/Section_03/Saved/NewMap245CC3C045C22D5AA1802CB202FD915A.tmp' to 'D:/Git/UnrealCourse/Section_03/Content/NewMap.umap'
+[2017.07.17-09.03.56:522][665]LogSavePackage:Display: Finished SavePackage D:/Git/UnrealCourse/Section_03/Content/NewMap.umap
+[2017.07.17-09.03.56:541][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/Git/UnrealCourse/Section_03/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.07.17-09.03.56:614][665]LogSavePackage: Save=65.47ms
+[2017.07.17-09.03.56:614][665]LogSavePackage: Moving 'D:/Git/UnrealCourse/Section_03/Saved/NewMap_BuiltData71E320B14E2BDDC4E566D49383350AD2.tmp' to 'D:/Git/UnrealCourse/Section_03/Content/NewMap_BuiltData.uasset'
+[2017.07.17-09.03.56:615][665]LogSavePackage:Display: Finished SavePackage D:/Git/UnrealCourse/Section_03/Content/NewMap_BuiltData.uasset
+[2017.07.17-09.03.58:143][847]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.17-09.03.58:154][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.17-09.03.58:155][847]PIE: New page: PIE session: NewMap (Jul 17, 2017, 1:03:58 PM)
+[2017.07.17-09.03.58:155][847]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.07.17-09.03.58:158][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002796s)
+[2017.07.17-09.03.58:158][847]LogAIModule: Creating AISystem for world NewMap
+[2017.07.17-09.03.58:158][847]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2017.07.17-09.03.58:158][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003835s)
+[2017.07.17-09.03.58:181][847]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1 V2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.17-09.03.58:186][847]LogInit: FAudioDevice initialized.
+[2017.07.17-09.03.58:216][847]LogLoad: Game class is 'GameMode_BP_C'
+[2017.07.17-09.03.58:218][847]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.07.17-11.03.58
+[2017.07.17-09.03.58:218][847]LogWorld: Bringing up level for play took: 0.001231
+[2017.07.17-09.03.58:219][847]LogTemp:Warning: Grabber is here!
+[2017.07.17-09.03.58:219][847]LogTemp:Warning: SM_Chair_2 is at X=374.000 Y=73.000 Z=20.000 
+[2017.07.17-09.03.58:219][847]LogTemp:Warning: SM_Rock_5 is at X=270.000 Y=350.000 Z=20.000 
+[2017.07.17-09.03.58:219][847]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.49
+[2017.07.17-09.04.15:476][893]Candidate modules for hot reload:
+[2017.07.17-09.04.15:476][893]  Section_03
+[2017.07.17-09.04.15:476][893]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Section_03 -ModuleWithSuffix Section_03 444 Win64 Development -editorrecompile -canskiplink "D:/Git/UnrealCourse/Section_03/Section_03.uproject" ]
+[2017.07.17-09.04.15:477][893]Warning: Starting HotReload took  0.0s.
+[2017.07.17-09.04.22:822][768]CompilerResultsLog: New page: Compilation - Jul 17, 2017, 1:04:22 PM
+[2017.07.17-09.04.22:822][768]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2017.07.17-09.04.22:823][768]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03\Section_03.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.07.17-09.04.22:823][768]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-09.04.22:823][768]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03Editor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-09.04.22:823][768]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.17-09.04.22:823][768]CompilerResultsLog: Info Parsing headers for Section_03Editor
+[2017.07.17-09.04.22:823][768]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\Git\UnrealCourse\Section_03\Section_03.uproject" "D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\Section_03Editor\Development\Section_03Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.17-09.04.22:824][768]CompilerResultsLog: Info Reflection code generated for Section_03Editor in 2,8215723 seconds
+[2017.07.17-09.04.22:824][768]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.07.17-09.04.22:824][768]CompilerResultsLog: Info Grabber.cpp
+[2017.07.17-09.04.22:824][768]CompilerResultsLog: Info Section_03.generated.cpp
+[2017.07.17-09.04.22:824][768]CompilerResultsLog:Error: Error c:\program files\epic games\ue_4.16\engine\source\runtime\core\public\Logging/LogMacros.h(34) : error C2665: 'CheckVA': none of the 11 overloads could convert all the argument types
+[2017.07.17-09.04.22:824][768]CompilerResultsLog:Error: Error c:\program files\epic games\ue_4.16\engine\source\runtime\core\public\Misc/VarArgs.h(87) : note: could be 'bool CheckVA(bool)'
+[2017.07.17-09.04.22:824][768]CompilerResultsLog:Error: Error c:\program files\epic games\ue_4.16\engine\source\runtime\core\public\Misc/VarArgs.h(86) : note: or       'void *CheckVA(ANSICHAR *)'
+[2017.07.17-09.04.22:824][768]CompilerResultsLog:Error: Error c:\program files\epic games\ue_4.16\engine\source\runtime\core\public\Misc/VarArgs.h(85) : note: or       'TCHAR CheckVA(TCHAR)'
+[2017.07.17-09.04.22:824][768]CompilerResultsLog:Error: Error c:\program files\epic games\ue_4.16\engine\source\runtime\core\public\Misc/VarArgs.h(84) : note: or       'long CheckVA(unsigned long)'
+[2017.07.17-09.04.22:824][768]CompilerResultsLog:Error: Error c:\program files\epic games\ue_4.16\engine\source\runtime\core\public\Misc/VarArgs.h(83) : note: or       'long CheckVA(long)'
+[2017.07.17-09.04.22:825][768]CompilerResultsLog:Error: Error c:\program files\epic games\ue_4.16\engine\source\runtime\core\public\Misc/VarArgs.h(82) : note: or       'double CheckVA(double)'
+[2017.07.17-09.04.22:825][768]CompilerResultsLog:Error: Error c:\program files\epic games\ue_4.16\engine\source\runtime\core\public\Misc/VarArgs.h(81) : note: or       'int64 CheckVA(int64)'
+[2017.07.17-09.04.22:825][768]CompilerResultsLog:Error: Error c:\program files\epic games\ue_4.16\engine\source\runtime\core\public\Misc/VarArgs.h(80) : note: or       'uint64 CheckVA(uint64)'
+[2017.07.17-09.04.22:825][768]CompilerResultsLog:Error: Error c:\program files\epic games\ue_4.16\engine\source\runtime\core\public\Misc/VarArgs.h(79) : note: or       'int32 CheckVA(int32)'
+[2017.07.17-09.04.22:825][768]CompilerResultsLog:Error: Error c:\program files\epic games\ue_4.16\engine\source\runtime\core\public\Misc/VarArgs.h(78) : note: or       'uint8 CheckVA(uint8)'
+[2017.07.17-09.04.22:825][768]CompilerResultsLog:Error: Error c:\program files\epic games\ue_4.16\engine\source\runtime\core\public\Misc/VarArgs.h(77) : note: or       'uint32 CheckVA(uint32)'
+[2017.07.17-09.04.22:825][768]CompilerResultsLog:Error: Error c:\program files\epic games\ue_4.16\engine\source\runtime\core\public\Logging/LogMacros.h(34) : note: while trying to match the argument list '(FString)'
+[2017.07.17-09.04.22:825][768]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(34) : note: see reference to function template instantiation 'void FMsg::Logf_Internal<FString>(const ANSICHAR *,int32,const FName &,ELogVerbosity::Type,const TCHAR *,T1)' being compiled
+[2017.07.17-09.04.22:826][768]CompilerResultsLog: Info         with
+[2017.07.17-09.04.22:826][768]CompilerResultsLog: Info         [
+[2017.07.17-09.04.22:826][768]CompilerResultsLog: Info             T1=FString
+[2017.07.17-09.04.22:826][768]CompilerResultsLog: Info         ]
+[2017.07.17-09.04.22:826][768]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: D:\Git\UnrealCourse\Section_03\Binaries\Win64\UE4Editor-Section_03-444.dll
+[2017.07.17-09.04.22:826][768]CompilerResultsLog: Info Total build time: 7,11 seconds (Local executor: 0,00 seconds)
+[2017.07.17-09.04.22:826][768]LogMainFrame: MainFrame: Module compiling took 7.357 seconds
+[2017.07.17-09.04.22:826][768]Warning: HotReload failed, recompile failed
+[2017.07.17-09.06.10:790][397]Candidate modules for hot reload:
+[2017.07.17-09.06.10:790][397]  Section_03
+[2017.07.17-09.06.10:790][397]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Section_03 -ModuleWithSuffix Section_03 2184 Win64 Development -editorrecompile -canskiplink "D:/Git/UnrealCourse/Section_03/Section_03.uproject" ]
+[2017.07.17-09.06.10:791][397]Warning: Starting HotReload took  0.0s.
+[2017.07.17-09.06.18:738][342]CompilerResultsLog: New page: Compilation - Jul 17, 2017, 1:06:18 PM
+[2017.07.17-09.06.18:738][342]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03\Section_03.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.07.17-09.06.18:739][342]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-09.06.18:739][342]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03Editor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-09.06.18:739][342]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.17-09.06.18:739][342]CompilerResultsLog: Info Parsing headers for Section_03Editor
+[2017.07.17-09.06.18:739][342]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\Git\UnrealCourse\Section_03\Section_03.uproject" "D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\Section_03Editor\Development\Section_03Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.17-09.06.18:739][342]CompilerResultsLog: Info Reflection code generated for Section_03Editor in 3,0966603 seconds
+[2017.07.17-09.06.18:739][342]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.07.17-09.06.18:739][342]CompilerResultsLog: Info Grabber.cpp
+[2017.07.17-09.06.18:740][342]CompilerResultsLog: Info [2/3] Link UE4Editor-Section_03-2184.dll
+[2017.07.17-09.06.18:740][342]CompilerResultsLog: Info [3/3] Link UE4Editor-Section_03-2184.lib
+[2017.07.17-09.06.18:740][342]CompilerResultsLog: Info    Creating library D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-2184.suppressed.lib and object D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-2184.suppressed.exp
+[2017.07.17-09.06.18:740][342]CompilerResultsLog: Info    Creating library D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-2184.lib and object D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-2184.exp
+[2017.07.17-09.06.18:740][342]CompilerResultsLog: Info Total build time: 7,75 seconds (Local executor: 2,25 seconds)
+[2017.07.17-09.06.18:740][342]LogMainFrame: MainFrame: Module compiling took 7.958 seconds
+[2017.07.17-09.06.18:806][342]LogClass: Could not find existing class Grabber in package /Script/Section_03 for HotReload, assuming new class
+[2017.07.17-09.06.18:811][342]LogHotReload: Re-instancing Grabber after hot-reload.
+[2017.07.17-09.06.18:867][342]LogContentBrowser: Native class hierarchy updated for 'Section_03' in 0.0009 seconds. Added 4 classes and 2 folders.
+[2017.07.17-09.06.18:869][342]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.17-09.06.19:108][342]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2335 classes and 497 folders.
+[2017.07.17-09.06.19:108][342]Display: HotReload took  8.3s.
+[2017.07.17-09.06.21:875][674]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.17-09.06.21:889][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.17-09.06.21:889][674]PIE: New page: PIE session: NewMap (Jul 17, 2017, 1:06:21 PM)
+[2017.07.17-09.06.21:889][674]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.07.17-09.06.21:891][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002145s)
+[2017.07.17-09.06.21:892][674]LogAIModule: Creating AISystem for world NewMap
+[2017.07.17-09.06.21:892][674]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2017.07.17-09.06.21:892][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003183s)
+[2017.07.17-09.06.21:924][674]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1 V2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.17-09.06.21:929][674]LogInit: FAudioDevice initialized.
+[2017.07.17-09.06.21:959][674]LogLoad: Game class is 'GameMode_BP_C'
+[2017.07.17-09.06.21:960][674]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.07.17-11.06.21
+[2017.07.17-09.06.21:961][674]LogWorld: Bringing up level for play took: 0.001252
+[2017.07.17-09.06.21:962][674]LogTemp:Warning: Grabber is here!
+[2017.07.17-09.06.21:962][674]LogTemp:Error: DefaultPawn_BP_C_0 does not have a Physics Handle Component
+[2017.07.17-09.06.21:962][674]LogTemp:Warning: SM_Chair_2 is at X=374.000 Y=73.000 Z=20.000 
+[2017.07.17-09.06.21:962][674]LogTemp:Warning: SM_Rock_5 is at X=270.000 Y=350.000 Z=20.000 
+[2017.07.17-09.06.21:962][674]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.747
+[2017.07.17-09.06.35:546][287]BlueprintLog: New page: Compile DefaultPawn_BP
+[2017.07.17-09.06.36:152][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_BP" FILE="D:/Git/UnrealCourse/Section_03/Content/DefaultPawn_BP.uasset" SILENT=true
+[2017.07.17-09.06.36:171][332]LogSavePackage: Save=17.24ms
+[2017.07.17-09.06.36:171][332]LogSavePackage: Moving 'D:/Git/UnrealCourse/Section_03/Saved/DefaultPawn_BPA7A988BB4D816C6A5E1CC2A1EC80F170.tmp' to 'D:/Git/UnrealCourse/Section_03/Content/DefaultPawn_BP.uasset'
+[2017.07.17-09.06.36:172][332]LogSavePackage:Display: Finished SavePackage D:/Git/UnrealCourse/Section_03/Content/DefaultPawn_BP.uasset
+[2017.07.17-09.06.38:048][554]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.17-09.06.38:060][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.17-09.06.38:060][554]PIE: New page: PIE session: NewMap (Jul 17, 2017, 1:06:38 PM)
+[2017.07.17-09.06.38:060][554]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.07.17-09.06.38:063][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002264s)
+[2017.07.17-09.06.38:063][554]LogAIModule: Creating AISystem for world NewMap
+[2017.07.17-09.06.38:064][554]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2017.07.17-09.06.38:064][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003439s)
+[2017.07.17-09.06.38:088][554]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1 V2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.17-09.06.38:093][554]LogInit: FAudioDevice initialized.
+[2017.07.17-09.06.38:122][554]LogLoad: Game class is 'GameMode_BP_C'
+[2017.07.17-09.06.38:124][554]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.07.17-11.06.38
+[2017.07.17-09.06.38:124][554]LogWorld: Bringing up level for play took: 0.001411
+[2017.07.17-09.06.38:125][554]LogTemp:Warning: Grabber is here!
+[2017.07.17-09.06.38:125][554]LogTemp:Warning: SM_Rock_5 is at X=270.000 Y=350.000 Z=20.000 
+[2017.07.17-09.06.38:125][554]LogTemp:Warning: SM_Chair_2 is at X=374.000 Y=73.000 Z=20.000 
+[2017.07.17-09.06.38:125][554]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.583
+[2017.07.17-09.07.42:590][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.07.17-09.07.49:014][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2017.07.17-09.14.03:375][754]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.17-09.14.12:378][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/Git/UnrealCourse/Section_03/Saved/Autosaves/Game/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.07.17-09.14.12:427][781]LogSavePackage: Save=42.13ms
+[2017.07.17-09.14.12:427][781]LogSavePackage: Moving 'D:/Git/UnrealCourse/Section_03/Saved/NewMap_Auto13C51902748102329166AB5AE05562C82.tmp' to 'D:/Git/UnrealCourse/Section_03/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2017.07.17-09.14.12:428][781]LogSavePackage:Display: Finished SavePackage D:/Git/UnrealCourse/Section_03/Saved/Autosaves/Game/NewMap_Auto1.umap
+[2017.07.17-09.14.12:430][781]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.075
+[2017.07.17-09.14.12:430][781]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.075
+[2017.07.17-09.21.53:312][593]Candidate modules for hot reload:
+[2017.07.17-09.21.53:313][593]  Section_03
+[2017.07.17-09.21.53:313][593]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Section_03 -ModuleWithSuffix Section_03 7882 Win64 Development -editorrecompile -canskiplink "D:/Git/UnrealCourse/Section_03/Section_03.uproject" ]
+[2017.07.17-09.21.53:314][593]Warning: Starting HotReload took  0.0s.
+[2017.07.17-09.22.01:648][572]CompilerResultsLog: New page: Compilation - Jul 17, 2017, 1:22:01 PM
+[2017.07.17-09.22.01:648][572]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03\Section_03.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.07.17-09.22.01:648][572]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-09.22.01:648][572]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03Editor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-09.22.01:648][572]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.17-09.22.01:648][572]CompilerResultsLog: Info Parsing headers for Section_03Editor
+[2017.07.17-09.22.01:648][572]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\Git\UnrealCourse\Section_03\Section_03.uproject" "D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\Section_03Editor\Development\Section_03Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.17-09.22.01:649][572]CompilerResultsLog: Info Reflection code generated for Section_03Editor in 3,0181195 seconds
+[2017.07.17-09.22.01:649][572]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.07.17-09.22.01:649][572]CompilerResultsLog: Info Section_03.generated.cpp
+[2017.07.17-09.22.01:649][572]CompilerResultsLog: Info Grabber.cpp
+[2017.07.17-09.22.01:649][572]CompilerResultsLog: Info [3/4] Link UE4Editor-Section_03-7882.dll
+[2017.07.17-09.22.01:649][572]CompilerResultsLog: Info [4/4] Link UE4Editor-Section_03-7882.lib
+[2017.07.17-09.22.01:649][572]CompilerResultsLog: Info    Creating library D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-7882.lib and object D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-7882.exp
+[2017.07.17-09.22.01:649][572]CompilerResultsLog: Info    Creating library D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-7882.suppressed.lib and object D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-7882.suppressed.exp
+[2017.07.17-09.22.01:649][572]CompilerResultsLog: Info Total build time: 8,10 seconds (Local executor: 2,56 seconds)
+[2017.07.17-09.22.01:650][572]LogMainFrame: MainFrame: Module compiling took 8.344 seconds
+[2017.07.17-09.22.01:719][572]LogContentBrowser: Native class hierarchy updated for 'Section_03' in 0.0009 seconds. Added 4 classes and 2 folders.
+[2017.07.17-09.22.01:721][572]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.17-09.22.01:937][572]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2335 classes and 497 folders.
+[2017.07.17-09.22.01:937][572]Display: HotReload took  8.6s.
+[2017.07.17-09.22.54:113][182]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.17-09.22.54:152][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.17-09.22.54:152][182]PIE: New page: PIE session: NewMap (Jul 17, 2017, 1:22:54 PM)
+[2017.07.17-09.22.54:152][182]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.07.17-09.22.54:158][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006036s)
+[2017.07.17-09.22.54:160][182]LogAIModule: Creating AISystem for world NewMap
+[2017.07.17-09.22.54:160][182]LogPlayLevel: PIE: World Init took: (0.001468s)
+[2017.07.17-09.22.54:161][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.008305s)
+[2017.07.17-09.22.54:210][182]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1 V2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.17-09.22.54:215][182]LogInit: FAudioDevice initialized.
+[2017.07.17-09.22.54:246][182]LogLoad: Game class is 'GameMode_BP_C'
+[2017.07.17-09.22.54:248][182]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.07.17-11.22.54
+[2017.07.17-09.22.54:248][182]LogWorld: Bringing up level for play took: 0.001399
+[2017.07.17-09.22.54:249][182]LogTemp:Warning: Grabber is here!
+[2017.07.17-09.22.54:249][182]LogTemp:Warning: SM_Rock_5 is at X=270.000 Y=350.000 Z=20.000 
+[2017.07.17-09.22.54:249][182]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.46
+[2017.07.17-09.34.55:658][571]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.17-09.34.55:714][574]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Section03
+[2017.07.17-09.34.55:714][574]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.17-09.34.55:714][574]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.07.17-09.34.55:714][574]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.17-09.34.55:724][575]LogTemp: BranchPath = DESKTOP-I2A0TGF/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-I2A0TGF/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.07.17-09.34.55:733][576]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Fran\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.17-11.32.05:474][946]Candidate modules for hot reload:
+[2017.07.17-11.32.05:475][946]  Section_03
+[2017.07.17-11.32.05:475][946]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Section_03 -ModuleWithSuffix Section_03 4746 Win64 Development -editorrecompile -canskiplink "D:/Git/UnrealCourse/Section_03/Section_03.uproject" ]
+[2017.07.17-11.32.05:476][946]Warning: Starting HotReload took  0.0s.
+[2017.07.17-11.32.15:953][ 65]CompilerResultsLog: New page: Compilation - Jul 17, 2017, 3:32:15 PM
+[2017.07.17-11.32.15:953][ 65]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03\Section_03.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.07.17-11.32.15:953][ 65]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-11.32.15:954][ 65]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03Editor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-11.32.15:954][ 65]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.17-11.32.15:954][ 65]CompilerResultsLog: Info Parsing headers for Section_03Editor
+[2017.07.17-11.32.15:954][ 65]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\Git\UnrealCourse\Section_03\Section_03.uproject" "D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\Section_03Editor\Development\Section_03Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.17-11.32.15:954][ 65]CompilerResultsLog: Info Reflection code generated for Section_03Editor in 3,4583489 seconds
+[2017.07.17-11.32.15:954][ 65]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.07.17-11.32.15:954][ 65]CompilerResultsLog: Info Section_03.generated.cpp
+[2017.07.17-11.32.15:954][ 65]CompilerResultsLog: Info Grabber.cpp
+[2017.07.17-11.32.15:954][ 65]CompilerResultsLog: Info [3/4] Link UE4Editor-Section_03-4746.dll
+[2017.07.17-11.32.15:954][ 65]CompilerResultsLog: Info [4/4] Link UE4Editor-Section_03-4746.lib
+[2017.07.17-11.32.15:955][ 65]CompilerResultsLog: Info    Creating library D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-4746.suppressed.lib and object D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-4746.suppressed.exp
+[2017.07.17-11.32.15:955][ 65]CompilerResultsLog: Info    Creating library D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-4746.lib and object D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-4746.exp
+[2017.07.17-11.32.15:955][ 65]CompilerResultsLog: Info Total build time: 10,18 seconds (Local executor: 3,97 seconds)
+[2017.07.17-11.32.15:955][ 65]LogMainFrame: MainFrame: Module compiling took 10.488 seconds
+[2017.07.17-11.32.16:028][ 65]LogContentBrowser: Native class hierarchy updated for 'Section_03' in 0.0010 seconds. Added 4 classes and 2 folders.
+[2017.07.17-11.32.16:030][ 65]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.17-11.32.16:271][ 65]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2335 classes and 497 folders.
+[2017.07.17-11.32.16:271][ 65]Display: HotReload took 10.8s.
+[2017.07.17-11.32.21:193][373]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.17-11.32.21:207][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.17-11.32.21:207][373]PIE: New page: PIE session: NewMap (Jul 17, 2017, 3:32:21 PM)
+[2017.07.17-11.32.21:207][373]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.07.17-11.32.21:210][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002598s)
+[2017.07.17-11.32.21:211][373]LogAIModule: Creating AISystem for world NewMap
+[2017.07.17-11.32.21:211][373]LogPlayLevel: PIE: World Init took: (0.001239s)
+[2017.07.17-11.32.21:211][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004296s)
+[2017.07.17-11.32.21:259][373]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1 V2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.17-11.32.21:264][373]LogInit: FAudioDevice initialized.
+[2017.07.17-11.32.21:294][373]LogLoad: Game class is 'GameMode_BP_C'
+[2017.07.17-11.32.21:296][373]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.07.17-13.32.21
+[2017.07.17-11.32.21:296][373]LogWorld: Bringing up level for play took: 0.001689
+[2017.07.17-11.32.21:297][373]LogTemp:Warning: Grabber is here!
+[2017.07.17-11.32.21:297][373]LogTemp:Warning: SM_Rock_5 is at X=270.000 Y=350.000 Z=20.000 
+[2017.07.17-11.32.21:298][373]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.589
+[2017.07.17-11.32.27:497][111]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:506][112]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:514][113]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:522][114]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:530][115]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:539][116]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:547][117]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:555][118]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:564][119]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:572][120]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:580][121]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:589][122]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:597][123]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:606][124]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:614][125]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:623][126]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:631][127]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:639][128]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:647][129]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:656][130]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:665][131]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:672][132]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:681][133]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:689][134]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:697][135]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:706][136]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:714][137]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:722][138]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:730][139]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:739][140]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:747][141]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:756][142]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:764][143]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:772][144]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:781][145]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:790][146]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:798][147]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:806][148]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:814][149]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:823][150]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:831][151]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:839][152]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:847][153]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:856][154]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:864][155]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:873][156]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:881][157]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:889][158]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:897][159]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:905][160]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:914][161]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:922][162]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:931][163]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:939][164]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:947][165]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:956][166]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:964][167]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:973][168]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:981][169]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:989][170]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.27:997][171]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:006][172]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:014][173]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:022][174]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:031][175]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:039][176]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:047][177]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:056][178]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:064][179]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:073][180]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:081][181]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:089][182]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:097][183]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:106][184]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:114][185]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:122][186]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:131][187]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:139][188]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:147][189]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:156][190]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:164][191]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:173][192]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:181][193]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:189][194]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:197][195]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:206][196]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:214][197]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:222][198]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:231][199]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:239][200]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:247][201]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:256][202]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:264][203]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:272][204]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:281][205]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:289][206]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:297][207]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:306][208]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:314][209]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:322][210]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:331][211]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:339][212]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:347][213]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:356][214]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:364][215]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:373][216]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:381][217]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:393][218]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:401][219]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:410][220]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:420][221]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:428][222]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:436][223]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:445][224]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:453][225]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.28:461][226]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-11.32.30:420][460]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.30:754][500]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.31:412][579]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.31:687][612]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.32:274][682]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.32:591][720]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.33:902][876]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.34:653][966]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.35:864][111]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.36:706][212]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.37:052][253]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.37:402][295]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.38:036][371]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.38:261][398]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.38:461][422]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.38:728][454]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.38:970][483]LogTemp:Warning: Grab pressed
+[2017.07.17-11.32.39:154][505]LogTemp:Warning: Grab pressed
+[2017.07.17-11.51.35:176][518]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.17-11.51.35:220][520]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Section03
+[2017.07.17-11.51.35:220][520]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.17-11.51.35:220][520]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.07.17-11.51.35:220][520]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.17-11.51.35:220][520]LogTemp: BranchPath = DESKTOP-I2A0TGF/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-I2A0TGF/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.07.17-11.51.35:237][522]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Fran\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.17-11.55.25:286][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/Git/UnrealCourse/Section_03/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.17-11.55.25:345][247]LogSavePackage: Save=38.02ms
+[2017.07.17-11.55.25:345][247]LogSavePackage: Moving 'D:/Git/UnrealCourse/Section_03/Saved/NewMap77BFDCD647EB89E1F9C920B2A144CD9D.tmp' to 'D:/Git/UnrealCourse/Section_03/Content/NewMap.umap'
+[2017.07.17-11.55.25:349][247]LogSavePackage:Display: Finished SavePackage D:/Git/UnrealCourse/Section_03/Content/NewMap.umap
+[2017.07.17-11.55.25:368][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/Git/UnrealCourse/Section_03/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.07.17-11.55.25:418][247]LogSavePackage: Save=45.97ms
+[2017.07.17-11.55.25:418][247]LogSavePackage: Moving 'D:/Git/UnrealCourse/Section_03/Saved/NewMap_BuiltDataB377D1414AFFAF0AC1C7B68E51BE6FE6.tmp' to 'D:/Git/UnrealCourse/Section_03/Content/NewMap_BuiltData.uasset'
+[2017.07.17-11.55.25:419][247]LogSavePackage:Display: Finished SavePackage D:/Git/UnrealCourse/Section_03/Content/NewMap_BuiltData.uasset
+[2017.07.17-11.55.26:254][345]Candidate modules for hot reload:
+[2017.07.17-11.55.26:254][345]  Section_03
+[2017.07.17-11.55.26:254][345]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Section_03 -ModuleWithSuffix Section_03 1115 Win64 Development -editorrecompile -canskiplink "D:/Git/UnrealCourse/Section_03/Section_03.uproject" ]
+[2017.07.17-11.55.26:255][345]Warning: Starting HotReload took  0.0s.
+[2017.07.17-11.55.34:201][285]CompilerResultsLog: New page: Compilation - Jul 17, 2017, 3:55:34 PM
+[2017.07.17-11.55.34:201][285]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03\Section_03.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.07.17-11.55.34:201][285]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-11.55.34:202][285]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03Editor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-11.55.34:202][285]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.17-11.55.34:202][285]CompilerResultsLog: Info Parsing headers for Section_03Editor
+[2017.07.17-11.55.34:202][285]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\Git\UnrealCourse\Section_03\Section_03.uproject" "D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\Section_03Editor\Development\Section_03Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.17-11.55.34:202][285]CompilerResultsLog: Info Reflection code generated for Section_03Editor in 2,8598714 seconds
+[2017.07.17-11.55.34:202][285]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.07.17-11.55.34:202][285]CompilerResultsLog: Info Grabber.cpp
+[2017.07.17-11.55.34:202][285]CompilerResultsLog: Info Section_03.generated.cpp
+[2017.07.17-11.55.34:202][285]CompilerResultsLog: Info [3/4] Link UE4Editor-Section_03-1115.dll
+[2017.07.17-11.55.34:202][285]CompilerResultsLog: Info [4/4] Link UE4Editor-Section_03-1115.lib
+[2017.07.17-11.55.34:202][285]CompilerResultsLog: Info    Creating library D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-1115.lib and object D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-1115.exp
+[2017.07.17-11.55.34:203][285]CompilerResultsLog: Info    Creating library D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-1115.suppressed.lib and object D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-1115.suppressed.exp
+[2017.07.17-11.55.34:203][285]CompilerResultsLog: Info Total build time: 7,74 seconds (Local executor: 2,56 seconds)
+[2017.07.17-11.55.34:203][285]LogMainFrame: MainFrame: Module compiling took 7.955 seconds
+[2017.07.17-11.55.34:275][285]LogContentBrowser: Native class hierarchy updated for 'Section_03' in 0.0009 seconds. Added 4 classes and 2 folders.
+[2017.07.17-11.55.34:277][285]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.17-11.55.34:484][285]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2335 classes and 497 folders.
+[2017.07.17-11.55.34:484][285]Display: HotReload took  8.2s.
+[2017.07.17-11.55.44:221][447]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.17-11.55.44:234][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.17-11.55.44:234][447]PIE: New page: PIE session: NewMap (Jul 17, 2017, 3:55:44 PM)
+[2017.07.17-11.55.44:234][447]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.07.17-11.55.44:236][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002209s)
+[2017.07.17-11.55.44:237][447]LogAIModule: Creating AISystem for world NewMap
+[2017.07.17-11.55.44:237][447]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2017.07.17-11.55.44:237][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003318s)
+[2017.07.17-11.55.44:285][447]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1 V2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.17-11.55.44:290][447]LogInit: FAudioDevice initialized.
+[2017.07.17-11.55.44:321][447]LogLoad: Game class is 'GameMode_BP_C'
+[2017.07.17-11.55.44:323][447]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.07.17-13.55.44
+[2017.07.17-11.55.44:324][447]LogWorld: Bringing up level for play took: 0.001271
+[2017.07.17-11.55.44:325][447]LogTemp:Warning: Grabber is here!
+[2017.07.17-11.55.44:325][447]LogTemp:Warning: SM_Rock_5 is at X=270.000 Y=350.000 Z=20.000 
+[2017.07.17-11.55.44:325][447]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.384
+[2017.07.17-11.55.50:200][150]LogTemp:Warning: Grab pressed
+[2017.07.17-11.55.51:309][283]LogTemp:Warning: Released
+[2017.07.17-11.55.52:339][406]LogTemp:Warning: Grab pressed
+[2017.07.17-11.55.55:273][758]LogTemp:Warning: Released
+[2017.07.17-11.55.55:573][794]LogTemp:Warning: Grab pressed
+[2017.07.17-11.55.55:648][803]LogTemp:Warning: Released
+[2017.07.17-11.55.56:090][856]LogTemp:Warning: Grab pressed
+[2017.07.17-11.55.56:156][864]LogTemp:Warning: Released
+[2017.07.17-13.14.34:808][328]Candidate modules for hot reload:
+[2017.07.17-13.14.34:808][328]  Section_03
+[2017.07.17-13.14.34:808][328]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Section_03 -ModuleWithSuffix Section_03 1354 Win64 Development -editorrecompile -canskiplink "D:/Git/UnrealCourse/Section_03/Section_03.uproject" ]
+[2017.07.17-13.14.34:809][328]Warning: Starting HotReload took  0.0s.
+[2017.07.17-13.14.42:841][215]CompilerResultsLog: New page: Compilation - Jul 17, 2017, 5:14:42 PM
+[2017.07.17-13.14.42:841][215]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03\Section_03.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.07.17-13.14.42:842][215]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-13.14.42:842][215]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03Editor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-13.14.42:842][215]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.17-13.14.42:842][215]CompilerResultsLog: Info Parsing headers for Section_03Editor
+[2017.07.17-13.14.42:842][215]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\Git\UnrealCourse\Section_03\Section_03.uproject" "D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\Section_03Editor\Development\Section_03Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.17-13.14.42:842][215]CompilerResultsLog: Info Reflection code generated for Section_03Editor in 3,1794028 seconds
+[2017.07.17-13.14.42:843][215]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.07.17-13.14.42:843][215]CompilerResultsLog: Info Section_03.generated.cpp
+[2017.07.17-13.14.42:843][215]CompilerResultsLog: Info Grabber.cpp
+[2017.07.17-13.14.42:843][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(24) : error C3861: 'GetInputComponent': identifier not found
+[2017.07.17-13.14.42:844][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(29) : error C2039: 'FindPhysiscComponent': is not a member of 'UGrabber'
+[2017.07.17-13.14.42:844][215]CompilerResultsLog:Error: Error d:\git\unrealcourse\section_03\source\section_03\Grabber.h(10) : note: see declaration of 'UGrabber'
+[2017.07.17-13.14.42:844][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(32) : error C2065: 'PhysicsHandle': undeclared identifier
+[2017.07.17-13.14.42:844][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(32) : error C3861: 'GetOwner': identifier not found
+[2017.07.17-13.14.42:844][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(32) : error C2227: left of '->FindComponentByClass' must point to class/struct/union/generic type
+[2017.07.17-13.14.42:844][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(32) : note: type is 'unknown-type'
+[2017.07.17-13.14.42:844][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(32) : error C2059: syntax error: ')'
+[2017.07.17-13.14.42:845][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(33) : error C2065: 'PhysicsHandle': undeclared identifier
+[2017.07.17-13.14.42:845][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(39) : error C3861: 'GetOwner': identifier not found
+[2017.07.17-13.14.42:845][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(39) : error C2227: left of '->GetName' must point to class/struct/union/generic type
+[2017.07.17-13.14.42:845][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(39) : note: type is 'unknown-type'
+[2017.07.17-13.14.42:845][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(43) : error C2039: 'GetInputComponent': is not a member of 'UGrabber'
+[2017.07.17-13.14.42:845][215]CompilerResultsLog:Error: Error d:\git\unrealcourse\section_03\source\section_03\Grabber.h(10) : note: see declaration of 'UGrabber'
+[2017.07.17-13.14.42:845][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(45) : error C2065: 'InputComponent': undeclared identifier
+[2017.07.17-13.14.42:845][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(45) : error C3861: 'GetOwner': identifier not found
+[2017.07.17-13.14.42:845][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(45) : error C2227: left of '->FindComponentByClass' must point to class/struct/union/generic type
+[2017.07.17-13.14.42:846][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(45) : note: type is 'unknown-type'
+[2017.07.17-13.14.42:846][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(45) : error C2059: syntax error: ')'
+[2017.07.17-13.14.42:846][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(46) : error C2065: 'InputComponent': undeclared identifier
+[2017.07.17-13.14.42:846][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(49) : error C2065: 'InputComponent': undeclared identifier
+[2017.07.17-13.14.42:846][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(49) : error C2227: left of '->BindAction' must point to class/struct/union/generic type
+[2017.07.17-13.14.42:846][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(49) : note: type is 'unknown-type'
+[2017.07.17-13.14.42:846][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(49) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2017.07.17-13.14.42:846][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(49) : error C2248: 'UGrabber::Grab': cannot access private member declared in class 'UGrabber'
+[2017.07.17-13.14.42:847][215]CompilerResultsLog:Error: Error d:\git\unrealcourse\section_03\source\section_03\Grabber.h(36) : note: see declaration of 'UGrabber::Grab'
+[2017.07.17-13.14.42:847][215]CompilerResultsLog:Error: Error d:\git\unrealcourse\section_03\source\section_03\Grabber.h(10) : note: see declaration of 'UGrabber'
+[2017.07.17-13.14.42:847][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(50) : error C2065: 'InputComponent': undeclared identifier
+[2017.07.17-13.14.42:847][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(50) : error C2227: left of '->BindAction' must point to class/struct/union/generic type
+[2017.07.17-13.14.42:847][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(50) : note: type is 'unknown-type'
+[2017.07.17-13.14.42:847][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(50) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2017.07.17-13.14.42:847][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(50) : error C2248: 'UGrabber::Release': cannot access private member declared in class 'UGrabber'
+[2017.07.17-13.14.42:847][215]CompilerResultsLog:Error: Error d:\git\unrealcourse\section_03\source\section_03\Grabber.h(37) : note: see declaration of 'UGrabber::Release'
+[2017.07.17-13.14.42:848][215]CompilerResultsLog:Error: Error d:\git\unrealcourse\section_03\source\section_03\Grabber.h(10) : note: see declaration of 'UGrabber'
+[2017.07.17-13.14.42:848][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(55) : error C3861: 'GetOwner': identifier not found
+[2017.07.17-13.14.42:848][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(55) : error C2227: left of '->GetName' must point to class/struct/union/generic type
+[2017.07.17-13.14.42:848][215]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(55) : note: type is 'unknown-type'
+[2017.07.17-13.14.42:848][215]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: D:\Git\UnrealCourse\Section_03\Binaries\Win64\UE4Editor-Section_03-1354.dll
+[2017.07.17-13.14.42:848][215]CompilerResultsLog: Info Total build time: 7,79 seconds (Local executor: 0,00 seconds)
+[2017.07.17-13.14.42:848][215]LogMainFrame: MainFrame: Module compiling took 8.048 seconds
+[2017.07.17-13.14.42:848][215]Warning: HotReload failed, recompile failed
+[2017.07.17-13.18.14:323][104]Candidate modules for hot reload:
+[2017.07.17-13.18.14:323][104]  Section_03
+[2017.07.17-13.18.14:323][104]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Section_03 -ModuleWithSuffix Section_03 2640 Win64 Development -editorrecompile -canskiplink "D:/Git/UnrealCourse/Section_03/Section_03.uproject" ]
+[2017.07.17-13.18.14:324][104]Warning: Starting HotReload took  0.0s.
+[2017.07.17-13.18.21:080][910]CompilerResultsLog: New page: Compilation - Jul 17, 2017, 5:18:21 PM
+[2017.07.17-13.18.21:080][910]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03\Section_03.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.07.17-13.18.21:081][910]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-13.18.21:081][910]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03Editor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-13.18.21:081][910]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.17-13.18.21:081][910]CompilerResultsLog: Info Parsing headers for Section_03Editor
+[2017.07.17-13.18.21:081][910]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\Git\UnrealCourse\Section_03\Section_03.uproject" "D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\Section_03Editor\Development\Section_03Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.17-13.18.21:082][910]CompilerResultsLog: Info Reflection code generated for Section_03Editor in 2,8216272 seconds
+[2017.07.17-13.18.21:082][910]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.07.17-13.18.21:082][910]CompilerResultsLog: Info Section_03.generated.cpp
+[2017.07.17-13.18.21:082][910]CompilerResultsLog: Info Grabber.cpp
+[2017.07.17-13.18.21:082][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(24) : error C3861: 'GetInputComponent': identifier not found
+[2017.07.17-13.18.21:082][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(43) : error C2039: 'GetInputComponent': is not a member of 'UGrabber'
+[2017.07.17-13.18.21:082][910]CompilerResultsLog:Error: Error d:\git\unrealcourse\section_03\source\section_03\Grabber.h(10) : note: see declaration of 'UGrabber'
+[2017.07.17-13.18.21:082][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(45) : error C2065: 'InputComponent': undeclared identifier
+[2017.07.17-13.18.21:083][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(45) : error C3861: 'GetOwner': identifier not found
+[2017.07.17-13.18.21:083][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(45) : error C2227: left of '->FindComponentByClass' must point to class/struct/union/generic type
+[2017.07.17-13.18.21:083][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(45) : note: type is 'unknown-type'
+[2017.07.17-13.18.21:083][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(45) : error C2059: syntax error: ')'
+[2017.07.17-13.18.21:083][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(46) : error C2065: 'InputComponent': undeclared identifier
+[2017.07.17-13.18.21:083][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(49) : error C2065: 'InputComponent': undeclared identifier
+[2017.07.17-13.18.21:084][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(49) : error C2227: left of '->BindAction' must point to class/struct/union/generic type
+[2017.07.17-13.18.21:084][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(49) : note: type is 'unknown-type'
+[2017.07.17-13.18.21:084][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(49) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2017.07.17-13.18.21:084][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(49) : error C2248: 'UGrabber::Grab': cannot access private member declared in class 'UGrabber'
+[2017.07.17-13.18.21:084][910]CompilerResultsLog:Error: Error d:\git\unrealcourse\section_03\source\section_03\Grabber.h(36) : note: see declaration of 'UGrabber::Grab'
+[2017.07.17-13.18.21:084][910]CompilerResultsLog:Error: Error d:\git\unrealcourse\section_03\source\section_03\Grabber.h(10) : note: see declaration of 'UGrabber'
+[2017.07.17-13.18.21:084][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(50) : error C2065: 'InputComponent': undeclared identifier
+[2017.07.17-13.18.21:085][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(50) : error C2227: left of '->BindAction' must point to class/struct/union/generic type
+[2017.07.17-13.18.21:085][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(50) : note: type is 'unknown-type'
+[2017.07.17-13.18.21:085][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(50) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2017.07.17-13.18.21:085][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(50) : error C2248: 'UGrabber::Release': cannot access private member declared in class 'UGrabber'
+[2017.07.17-13.18.21:085][910]CompilerResultsLog:Error: Error d:\git\unrealcourse\section_03\source\section_03\Grabber.h(37) : note: see declaration of 'UGrabber::Release'
+[2017.07.17-13.18.21:085][910]CompilerResultsLog:Error: Error d:\git\unrealcourse\section_03\source\section_03\Grabber.h(10) : note: see declaration of 'UGrabber'
+[2017.07.17-13.18.21:085][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(55) : error C3861: 'GetOwner': identifier not found
+[2017.07.17-13.18.21:085][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(55) : error C2227: left of '->GetName' must point to class/struct/union/generic type
+[2017.07.17-13.18.21:085][910]CompilerResultsLog:Error: Error D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp(55) : note: type is 'unknown-type'
+[2017.07.17-13.18.21:086][910]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: D:\Git\UnrealCourse\Section_03\Binaries\Win64\UE4Editor-Section_03-2640.dll
+[2017.07.17-13.18.21:086][910]CompilerResultsLog: Info Total build time: 6,55 seconds (Local executor: 0,00 seconds)
+[2017.07.17-13.18.21:086][910]LogMainFrame: MainFrame: Module compiling took 6.770 seconds
+[2017.07.17-13.18.21:086][910]Warning: HotReload failed, recompile failed
+[2017.07.17-13.18.29:487][907]LogVSAccessor:Warning: Couldn't goto line number '24' in 'D:\Git\UnrealCourse\Section_03\Source\Section_03\Grabber.cpp'
+[2017.07.17-13.19.05:994][708]Candidate modules for hot reload:
+[2017.07.17-13.19.05:994][708]  Section_03
+[2017.07.17-13.19.05:994][708]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Section_03 -ModuleWithSuffix Section_03 6705 Win64 Development -editorrecompile -canskiplink "D:/Git/UnrealCourse/Section_03/Section_03.uproject" ]
+[2017.07.17-13.19.05:995][708]Warning: Starting HotReload took  0.0s.
+[2017.07.17-13.19.14:141][665]CompilerResultsLog: New page: Compilation - Jul 17, 2017, 5:19:14 PM
+[2017.07.17-13.19.14:141][665]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03\Section_03.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.07.17-13.19.14:141][665]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-13.19.14:142][665]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03Editor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-13.19.14:142][665]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.17-13.19.14:142][665]CompilerResultsLog: Info Parsing headers for Section_03Editor
+[2017.07.17-13.19.14:142][665]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\Git\UnrealCourse\Section_03\Section_03.uproject" "D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\Section_03Editor\Development\Section_03Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.17-13.19.14:142][665]CompilerResultsLog: Info Reflection code generated for Section_03Editor in 2,8970846 seconds
+[2017.07.17-13.19.14:142][665]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.07.17-13.19.14:143][665]CompilerResultsLog: Info Grabber.cpp
+[2017.07.17-13.19.14:143][665]CompilerResultsLog: Info Section_03.generated.cpp
+[2017.07.17-13.19.14:143][665]CompilerResultsLog: Info [3/4] Link UE4Editor-Section_03-6705.dll
+[2017.07.17-13.19.14:143][665]CompilerResultsLog: Info [4/4] Link UE4Editor-Section_03-6705.lib
+[2017.07.17-13.19.14:143][665]CompilerResultsLog: Info    Creating library D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-6705.suppressed.lib and object D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-6705.suppressed.exp
+[2017.07.17-13.19.14:143][665]CompilerResultsLog: Info    Creating library D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-6705.lib and object D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-6705.exp
+[2017.07.17-13.19.14:143][665]CompilerResultsLog: Info Total build time: 7,93 seconds (Local executor: 2,67 seconds)
+[2017.07.17-13.19.14:143][665]LogMainFrame: MainFrame: Module compiling took 8.157 seconds
+[2017.07.17-13.19.14:203][665]LogClass: Could not find existing class Grabber in package /Script/Section_03 for HotReload, assuming new class
+[2017.07.17-13.19.14:209][665]LogHotReload: Re-instancing Grabber after hot-reload.
+[2017.07.17-13.19.14:278][665]LogContentBrowser: Native class hierarchy updated for 'Section_03' in 0.0010 seconds. Added 4 classes and 2 folders.
+[2017.07.17-13.19.14:280][665]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.17-13.19.14:486][665]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2335 classes and 497 folders.
+[2017.07.17-13.19.14:486][665]Display: HotReload took  8.5s.
+[2017.07.17-13.52.29:065][411]Candidate modules for hot reload:
+[2017.07.17-13.52.29:065][411]  Section_03
+[2017.07.17-13.52.29:066][411]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Section_03 -ModuleWithSuffix Section_03 6373 Win64 Development -editorrecompile -canskiplink "D:/Git/UnrealCourse/Section_03/Section_03.uproject" ]
+[2017.07.17-13.52.29:067][411]Warning: Starting HotReload took  0.0s.
+[2017.07.17-13.52.36:295][ 27]CompilerResultsLog: New page: Compilation - Jul 17, 2017, 5:52:36 PM
+[2017.07.17-13.52.36:296][ 27]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03\Section_03.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.07.17-13.52.36:296][ 27]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-13.52.36:296][ 27]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03Editor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-13.52.36:296][ 27]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.17-13.52.36:296][ 27]CompilerResultsLog: Info Parsing headers for Section_03Editor
+[2017.07.17-13.52.36:296][ 27]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\Git\UnrealCourse\Section_03\Section_03.uproject" "D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\Section_03Editor\Development\Section_03Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.17-13.52.36:297][ 27]CompilerResultsLog: Info Reflection code generated for Section_03Editor in 2,9255198 seconds
+[2017.07.17-13.52.36:297][ 27]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.07.17-13.52.36:297][ 27]CompilerResultsLog: Info Section_03.generated.cpp
+[2017.07.17-13.52.36:297][ 27]CompilerResultsLog: Info Grabber.cpp
+[2017.07.17-13.52.36:297][ 27]CompilerResultsLog:Error: Error d:\git\unrealcourse\section_03\source\section_03\grabber.cpp(107)  : error C4716: 'UGrabber::GetFirstPhysicsBodyInReach': must return a value
+[2017.07.17-13.52.36:297][ 27]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: D:\Git\UnrealCourse\Section_03\Binaries\Win64\UE4Editor-Section_03-6373.dll
+[2017.07.17-13.52.36:297][ 27]CompilerResultsLog: Info Total build time: 7,02 seconds (Local executor: 0,00 seconds)
+[2017.07.17-13.52.36:297][ 27]LogMainFrame: MainFrame: Module compiling took 7.238 seconds
+[2017.07.17-13.52.36:297][ 27]Warning: HotReload failed, recompile failed
+[2017.07.17-13.54.10:246][839]Candidate modules for hot reload:
+[2017.07.17-13.54.10:246][839]  Section_03
+[2017.07.17-13.54.10:246][839]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Section_03 -ModuleWithSuffix Section_03 645 Win64 Development -editorrecompile -canskiplink "D:/Git/UnrealCourse/Section_03/Section_03.uproject" ]
+[2017.07.17-13.54.10:247][839]Warning: Starting HotReload took  0.0s.
+[2017.07.17-13.54.17:760][225]CompilerResultsLog: New page: Compilation - Jul 17, 2017, 5:54:17 PM
+[2017.07.17-13.54.17:760][225]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03\Section_03.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.07.17-13.54.17:760][225]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-13.54.17:760][225]CompilerResultsLog: Info D:\Git\UnrealCourse\Section_03\Source\Section_03Editor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.07.17-13.54.17:761][225]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.17-13.54.17:761][225]CompilerResultsLog: Info Parsing headers for Section_03Editor
+[2017.07.17-13.54.17:761][225]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\Git\UnrealCourse\Section_03\Section_03.uproject" "D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\Section_03Editor\Development\Section_03Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.17-13.54.17:761][225]CompilerResultsLog: Info Reflection code generated for Section_03Editor in 2,9340868 seconds
+[2017.07.17-13.54.17:761][225]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.07.17-13.54.17:761][225]CompilerResultsLog: Info Grabber.cpp
+[2017.07.17-13.54.17:761][225]CompilerResultsLog: Info [2/3] Link UE4Editor-Section_03-645.dll
+[2017.07.17-13.54.17:761][225]CompilerResultsLog: Info [3/3] Link UE4Editor-Section_03-645.lib
+[2017.07.17-13.54.17:761][225]CompilerResultsLog: Info    Creating library D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-645.lib and object D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-645.exp
+[2017.07.17-13.54.17:761][225]CompilerResultsLog: Info    Creating library D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-645.suppressed.lib and object D:\Git\UnrealCourse\Section_03\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section_03-645.suppressed.exp
+[2017.07.17-13.54.17:762][225]CompilerResultsLog: Info Total build time: 7,21 seconds (Local executor: 2,04 seconds)
+[2017.07.17-13.54.17:762][225]LogMainFrame: MainFrame: Module compiling took 7.523 seconds
+[2017.07.17-13.54.17:852][225]LogContentBrowser: Native class hierarchy updated for 'Section_03' in 0.0010 seconds. Added 4 classes and 2 folders.
+[2017.07.17-13.54.17:854][225]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.17-13.54.18:079][225]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2335 classes and 497 folders.
+[2017.07.17-13.54.18:080][225]Display: HotReload took  7.8s.
+[2017.07.17-13.54.23:156][249]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.17-13.54.23:169][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.17-13.54.23:170][249]PIE: New page: PIE session: NewMap (Jul 17, 2017, 5:54:23 PM)
+[2017.07.17-13.54.23:170][249]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.07.17-13.54.23:172][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002607s)
+[2017.07.17-13.54.23:173][249]LogAIModule: Creating AISystem for world NewMap
+[2017.07.17-13.54.23:173][249]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2017.07.17-13.54.23:173][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003784s)
+[2017.07.17-13.54.23:226][249]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1 V2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.17-13.54.23:231][249]LogInit: FAudioDevice initialized.
+[2017.07.17-13.54.23:260][249]LogLoad: Game class is 'GameMode_BP_C'
+[2017.07.17-13.54.23:262][249]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.07.17-15.54.23
+[2017.07.17-13.54.23:262][249]LogWorld: Bringing up level for play took: 0.001344
+[2017.07.17-13.54.23:263][249]LogTemp:Warning: SM_Rock_5 is at X=270.000 Y=350.000 Z=20.000 
+[2017.07.17-13.54.23:263][249]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.554
+[2017.07.17-13.54.33:932][528]LogTemp:Warning: Grab pressed
+[2017.07.17-13.54.34:215][562]LogTemp:Warning: Released
+[2017.07.17-13.54.36:141][793]LogTemp:Warning: Grab pressed
+[2017.07.17-13.54.36:141][793]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-13.54.36:715][862]LogTemp:Warning: Released
+[2017.07.17-13.54.37:307][933]LogTemp:Warning: Grab pressed
+[2017.07.17-13.54.37:308][933]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-13.54.37:774][989]LogTemp:Warning: Released
+[2017.07.17-13.54.38:149][ 34]LogTemp:Warning: Grab pressed
+[2017.07.17-13.54.38:150][ 34]LogTemp:Warning: SM_TableRound_2
+[2017.07.17-13.54.38:385][ 62]LogTemp:Warning: Released
+[2017.07.17-13.54.38:960][131]LogTemp:Warning: Grab pressed
+[2017.07.17-13.54.39:060][143]LogTemp:Warning: Released
+[2017.07.17-13.54.39:193][159]LogTemp:Warning: Grab pressed
+[2017.07.17-13.54.39:276][169]LogTemp:Warning: Released
+[2017.07.17-16.21.25:894][925]Cmd: QUIT_EDITOR
+[2017.07.17-16.21.26:770][925]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.17-16.21.26:778][925]LogExit: Preparing to exit.
+[2017.07.17-16.21.27:441][925]LogExit: Editor shut down
+[2017.07.17-16.21.27:443][925]LogExit: Transaction tracking system shut down
+[2017.07.17-16.21.27:526][925]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.17-16.21.27:526][925]LogExit: Object subsystem successfully closed.
+[2017.07.17-16.21.27:542][925]LogD3D11RHI: Shutdown
+[2017.07.17-16.21.27:542][925]LogD3D11RHI: CleanupD3DDevice
+[2017.07.17-16.21.27:599][925]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.17-16.21.27:610][925]LogModuleManager: Shutting down and abandoning module Section_03 (540)
+[2017.07.17-16.21.27:610][925]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (536)
+[2017.07.17-16.21.27:610][925]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.07.17-16.21.27:610][925]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.07.17-16.21.27:610][925]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.07.17-16.21.27:610][925]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.07.17-16.21.27:610][925]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.07.17-16.21.27:610][925]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.07.17-16.21.27:610][925]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.07.17-16.21.27:610][925]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.07.17-16.21.27:611][925]LogDirectoryWatcher: A directory notification for 'D:/Git/UnrealCourse/Section_03/Content/Collections/' was aborted.
+[2017.07.17-16.21.27:611][925]LogDirectoryWatcher: A directory notification for 'D:/Git/UnrealCourse/Section_03/Content/Developers/Fran/Collections/' was aborted.
+[2017.07.17-16.21.27:611][925]LogDirectoryWatcher: A directory notification for 'D:/Git/UnrealCourse/Section_03/Saved/Collections/' was aborted.
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2017.07.17-16.21.27:611][925]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module Media (473)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2017.07.17-16.21.27:612][925]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2017.07.17-16.21.27:713][925]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2017.07.17-16.21.27:775][925]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2017.07.17-16.21.27:775][925]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2017.07.17-16.21.27:775][925]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2017.07.17-16.21.27:775][925]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2017.07.17-16.21.27:775][925]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2017.07.17-16.21.27:775][925]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2017.07.17-16.21.27:775][925]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2017.07.17-16.21.27:775][925]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2017.07.17-16.21.27:775][925]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2017.07.17-16.21.27:775][925]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2017.07.17-16.21.27:783][925]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.07.17-16.21.27:808][925]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.07.17-16.21.27:809][925]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.07.17-16.21.27:809][925]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.07.17-16.21.27:809][925]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.07.17-16.21.27:809][925]LogDirectoryWatcher: A directory notification for 'D:/Git/UnrealCourse/Section_03/Binaries/Win64' was aborted.
+[2017.07.17-16.21.27:809][925]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.17-16.21.27:809][925]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.17-16.21.27:809][925]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.17-16.21.27:809][925]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.17-16.21.27:809][925]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.17-16.21.27:809][925]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.17-16.21.27:910][925]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.17-16.21.28:011][925]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.17-16.21.28:011][925]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.17-16.21.28:011][925]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.17-16.21.28:011][925]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.17-16.21.28:011][925]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.17-16.21.28:011][925]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.17-16.21.28:011][925]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.17-16.21.28:011][925]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.17-16.21.28:011][925]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.17-16.21.28:012][925]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.17-16.21.28:014][925]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.17-16.21.28:014][925]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.17-16.21.28:014][925]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.17-16.21.28:014][925]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.17-16.21.28:014][925]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.17-16.21.28:014][925]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.17-16.21.28:192][925]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.17-16.21.28:192][925]LogDirectoryWatcher: A directory notification for 'D:/Git/UnrealCourse/Section_03/Content/' was aborted.
+[2017.07.17-16.21.28:192][925]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.17-16.21.28:192][925]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.17-16.21.28:193][925]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.17-16.21.28:194][925]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.17-16.21.28:194][925]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.17-16.21.28:194][925]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.17-16.21.28:194][925]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.17-16.21.28:194][925]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.17-16.21.28:194][925]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.17-16.21.28:194][925]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.17-16.21.28:194][925]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.17-16.21.28:276][925]LogDerivedDataCache: Shutdown
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.17-16.21.28:276][925]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.17-16.21.28:276][925]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.17-16.21.28:276][925]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.17-16.21.28:276][925]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB1C2697A-48B9-05A6-2955-34B1C3B23144%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=e622f32f463af1de59db119f787e99a9%7C3c5312b806f34eb08048b3493a229283%7C3d3f9deb-b8f4-4a62-bb75-89de9895d325&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.17-16.21.28:308][925]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.17-16.21.28:309][925]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.17-16.21.28:309][925]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.17-16.21.28:309][925]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.17-16.21.28:309][925]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.17-16.21.28:309][925]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.17-16.21.28:309][925]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.17-16.21.28:309][925]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.17-16.21.28:309][925]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.17-16.21.28:310][925]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.17-16.21.28:310][925]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.17-16.21.28:310][925]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.17-16.21.28:310][925]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.17-16.21.28:310][925]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.17-16.21.28:310][925]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.17-16.21.28:310][925]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.17-16.21.28:310][925]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.17-16.21.28:310][925]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.17-16.21.28:310][925]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.17-16.21.28:311][925]LogExit: Exiting.
+[2017.07.17-16.21.28:320][925]Log file closed, 07/17/17 18:21:28

@@ -17,8 +17,6 @@ void EmptyLinkFunctionForGeneratedCode1Section_03() {}
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_UActorComponent();
-	ENGINE_API class UClass* Z_Construct_UClass_UInputComponent_NoRegister();
-	ENGINE_API class UClass* Z_Construct_UClass_UPhysicsHandleComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_ATriggerVolume_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
@@ -53,10 +51,6 @@ void EmptyLinkFunctionForGeneratedCode1Section_03() {}
 				OuterClass->ClassFlags |= 0x20B00080;
 
 
-PRAGMA_DISABLE_DEPRECATION_WARNINGS
-				UProperty* NewProp_InputComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("InputComponent"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(InputComponent, UGrabber), 0x0040000000080008, Z_Construct_UClass_UInputComponent_NoRegister());
-				UProperty* NewProp_PhysicsHandle = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("PhysicsHandle"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(PhysicsHandle, UGrabber), 0x0040000000080008, Z_Construct_UClass_UPhysicsHandleComponent_NoRegister());
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				static TCppClassTypeInfo<TCppClassTypeTraits<UGrabber> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
 				OuterClass->StaticLink();
@@ -66,17 +60,13 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Grabber.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Grabber.h"));
-				MetaData->SetValue(NewProp_InputComponent, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_InputComponent, TEXT("ModuleRelativePath"), TEXT("Grabber.h"));
-				MetaData->SetValue(NewProp_PhysicsHandle, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_PhysicsHandle, TEXT("ModuleRelativePath"), TEXT("Grabber.h"));
 #endif
 			}
 		}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGrabber, 2230978915);
+	IMPLEMENT_CLASS(UGrabber, 2943734118);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UGrabber(Z_Construct_UClass_UGrabber, &UGrabber::StaticClass, TEXT("/Script/Section_03"), TEXT("UGrabber"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGrabber);
 	void UOpenDoor::StaticRegisterNativesUOpenDoor()
@@ -218,7 +208,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/Section_03")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x74B914F4;
+			Guid.A = 0xE49E1F60;
 			Guid.B = 0xB2B56F70;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

@@ -26,10 +26,10 @@ public:
 private:
 	float Reach = 100.0f;
 
-	UPROPERTY()
+	
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 
-	UPROPERTY()
+	
 	UInputComponent* InputComponent = nullptr;
 
 
@@ -37,7 +37,11 @@ private:
 	void Release();
 	void FindPhysicsComponent();
 	void SetupInputComponent();
-	FHitResult GetFirstPhysicsBodyInReach() const;
+	FHitResult GetFirstPhysicsBodyInReach();
+	
+	// Returns start and end of line tracing
+	FVector GetReachLineEnd();
+	FVector GetReachLineStart();
 
 
 

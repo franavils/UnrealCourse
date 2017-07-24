@@ -59,11 +59,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGrabber); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UGrabber)
 
 
-#define Section_03_Source_Section_03_Grabber_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__PhysicsHandle() { return STRUCT_OFFSET(UGrabber, PhysicsHandle); } \
-	FORCEINLINE static uint32 __PPO__InputComponent() { return STRUCT_OFFSET(UGrabber, InputComponent); }
-
-
+#define Section_03_Source_Section_03_Grabber_h_12_PRIVATE_PROPERTY_OFFSET
 #define Section_03_Source_Section_03_Grabber_h_9_PROLOG
 #define Section_03_Source_Section_03_Grabber_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
